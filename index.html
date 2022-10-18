@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Good Food</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="logo">
+                <img src="./img/gf_logo.png" alt="">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="menu.html">Meni</a></li>
+                <li><a href="#locations">Lokacije</a></li>
+                <li><a href="#">O nama</a></li>
+            </ul>
+        </nav>
+
+        <div class="background">
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="responsive-menu">
+            <ul class="resp-nav-list">
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="menu.html">Meni</a></li>
+                <li><a href="#locations">Lokacije</a></li>
+                <li><a href="#">O nama</a></li>
+            </ul>
+        </div>
+        
+    </header>
+
+    <section class="hero-sct" sct="main-sct">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <div class="heading-parts">
+                    <span class="heading-part">Najbolji</span>
+                    <div class="sub-parts">
+                        <span class="heading-part green">Roštilj,</span>
+                        <span class="heading-part yellow">Pica,</span>
+                        <span class="heading-part red">Sendviči</span>
+                    </div>
+                    <span class="heading-part">U Gradu</span>
+                </div>
+                <span class="pre-btn">Šta cekaš?</span>
+                <a href="#" class="order-btn">Poruči Odmah</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="our-recom">
+        <div class="section-headings">
+            <h3 class="sub-h">Naša preporuka</h3>
+            <h2 class="main-h">Izdvajamo za vas</h2>
+        </div>
+        <div class="recom-cards-wrapper">
+            <div class="recom-card">
+                <img src="/img/pljeskavica.jpg" alt="">
+                <div class="card-text">
+                    <h3 class="name">Punjena pljeskavica <br> + <br> <span class="cocacola">CocaCola</span></h3>
+                    <span class="card-price">570 RSD</span>
+                    <a href="#" class="card-poruci">Poruči</a>
+                </div>
+            </div>
+            <div class="recom-card">
+                <img src="/img/pica.jpg" alt="">
+                <div class="card-text">
+                    <h3 class="name">L Diablo <br> + <br> <span class="cocacola">CocaCola</span></h3>
+                    <span class="card-price">590 RSD</span>
+                    <a href="#" class="card-poruci">Poruči</a>
+                </div>
+            </div>
+        </div>
+        <a href="menu.html" class="see-all">Pogledaj ceo meni</a>
+    </section>
+
+    <section class="locations" id="locations">
+        <div class="section-headings">
+            <h3 class="sub-h">Poseti nas</h3>
+            <h2 class="main-h">Naše lokacije</h2>
+        </div>
+        <div class="location-names">
+            <button class="vo-il-btn location-btn active">Vojislava Ilića</button>
+            <button class="bogoslovija-btn location-btn">Bogoslovija</button>
+            <button class="zarkovo-btn location-btn">Žarkovo</button>
+            <button class="zeleni-venac-btn location-btn">Zeleni Venac</button>
+        </div>
+        <div class="location-container"></div>
+    </section>
+
+    <section class="about-sct">
+        <div class="section-headings">
+            <h3 class="sub-h">Kratka prica</h3>
+            <h2 class="main-h">O nama</h2>
+        </div>
+        <p class="about-story">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quia, earum possimus commodi ullam error dolores inventore 
+            placeat eius eligendi fugit officiis deleniti nihil cupiditate 
+            magnam provident voluptates ratione vel non totam ducimus tempora 
+            in porro illo. Voluptas, dolore odit. Aliquid aspernatur sequi dignissimos? 
+            Quibusdam temporibus, fugit impedit ducimus nemo vero.
+        </p>
+    </section>
+
+    <footer class="footer">
+        <span class="join">Pridruzi se zajednici</span>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-viber"></i></a>
+        </div>
+        <span class="footer-span">© GoodFood</span>
+    </footer>
+
+
+    <script src="index.js" type="module"></script>
+    <script src="menuIcon.js"></script>
+</body>
+</html>
